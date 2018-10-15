@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  item: 1
+  revision: 1
+  doc_revision: MyString
+  condition: MyString
+  goal: MyString
+  obs: MyText
+
+two:
+  item: 1
+  revision: 1
+  doc_revision: MyString
+  condition: MyString
+  goal: MyString
+  obs: MyText

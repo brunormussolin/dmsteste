@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  item: 1
+  father: 1
+  position: 1
+
+two:
+  item: 1
+  father: 1
+  position: 1

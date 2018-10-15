@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Item:</strong>
+  <%= @revision.item %>
+</p>
+
+<p>
+  <strong>Revision:</strong>
+  <%= @revision.revision %>
+</p>
+
+<p>
+  <strong>Doc revision:</strong>
+  <%= @revision.doc_revision %>
+</p>
+
+<p>
+  <strong>Condition:</strong>
+  <%= @revision.condition %>
+</p>
+
+<p>
+  <strong>Goal:</strong>
+  <%= @revision.goal %>
+</p>
+
+<p>
+  <strong>Obs:</strong>
+  <%= @revision.obs %>
+</p>
+
+<%= link_to 'Edit', edit_revision_path(@revision) %> |
+<%= link_to 'Back', revisions_path %>
