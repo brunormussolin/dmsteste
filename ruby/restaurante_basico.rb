@@ -10,3 +10,4 @@ when 2014
 "Brasil"
 end
 end
+puts procura_sede_copa_do_mundo(1994)
