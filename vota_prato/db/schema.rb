@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_10_23_172813) do
+ActiveRecord::Schema.define(version: 2018_10_23_173343) do
 
   create_table "clientes", force: :cascade do |t|
     t.string "nome", limit: 80
@@ -23,6 +23,11 @@ ActiveRecord::Schema.define(version: 2018_10_23_172813) do
     t.string "nome", limit: 80
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "pratos_restaurantes", id: false, force: :cascade do |t|
+    t.integer "prato_id"
+    t.integer "restaurante_id"
   end
 
   create_table "qualificacoes", force: :cascade do |t|
