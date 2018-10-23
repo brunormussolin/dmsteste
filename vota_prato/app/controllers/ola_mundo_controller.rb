@@ -1,0 +1,2 @@
+class OlaMundoController < ApplicationController
+end
