@@ -10,13 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_10_23_120736) do
+ActiveRecord::Schema.define(version: 2018_10_23_122203) do
 
   create_table "restaurantes", force: :cascade do |t|
     t.string "nome", limit: 80
     t.string "endereco"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "especialidade", limit: 40
   end
 
 end
