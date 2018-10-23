@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_10_23_164700) do
+ActiveRecord::Schema.define(version: 2018_10_23_170212) do
 
   create_table "clientes", force: :cascade do |t|
     t.string "nome", limit: 80
@@ -21,6 +21,12 @@ ActiveRecord::Schema.define(version: 2018_10_23_164700) do
 
   create_table "pratos", force: :cascade do |t|
     t.string "nome", limit: 80
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "receitas", force: :cascade do |t|
+    t.text "conteudo"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
